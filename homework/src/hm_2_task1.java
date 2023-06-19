@@ -9,7 +9,7 @@ public class hm_2_task1 {
 //    Параметры для фильтрации: {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
 //    "name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"
 //    В итоге должно получится select * from students where name=Ivanov, country=Russia, city=Moscow, age=null
-//
+
     public static void main(String[] args) throws Exception {
         StringBuilder builder = new StringBuilder();
         try (FileReader reader = new FileReader("C:/file.txt")) {
